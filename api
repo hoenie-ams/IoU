@@ -16,6 +16,6 @@ POST
 https://api-sandbox.abnamro.com/v1/tikkie/platforms
 Headers: 
 Authorization: Bearer {token}
-Content-Type: application/json
 Body:
+'Content-Type': 'application/json'
 {"name": "iou", "phoneNumber": "06XXXXXXXXX", "email": "XXXXXXXXXXXX@gmail.com", "notificationURL": "http://example.com"}
