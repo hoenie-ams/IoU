@@ -1,0 +1,21 @@
+###API 
+
+##Tikkie
+#Get Token:
+POST
+https://api-sandbox.abnamro.com/v1/oauth/token
+Basic Authication: username:password
+Body:
+'Content-Type':'application/x-www-form-urlencoded'
+grant_type: client_credentials
+Scope: tikkie
+https://api-sandbox.abnamro.com/v1/oauth/token
+
+#Post Platform
+POST
+https://api-sandbox.abnamro.com/v1/tikkie/platforms
+Headers: 
+Authorization: Bearer {token}
+Content-Type: application/json
+Body:
+{"name": "iou", "phoneNumber": "06XXXXXXXXX", "email": "XXXXXXXXXXXX@gmail.com", "notificationURL": "http://example.com"}
