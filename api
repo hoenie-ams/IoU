@@ -49,7 +49,7 @@ POST Payment requests:
   "externalId": "Invoice: 4567"
 }
 
-GET Payment requests:
+GET Payment requests: https://api-sandbox.abnamro.com/v1/tikkie/platforms/2b697ddf-4e0f-424d-88be-4127cbd480ff/users/95e36135-33c1-4abd-84c9-3f96eb11d135/paymentrequests?page=1&size=3
 {
   "paymentRequests": [
     {
